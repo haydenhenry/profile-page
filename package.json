@@ -9,8 +9,11 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "@mdi/font": "^3.6.95",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "roboto-fontface": "*",
+    "vue": "^2.6.10",
+    "vuetify": "^2.0.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.11.0",
@@ -20,6 +23,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
     "vue-template-compiler": "^2.6.10"
   }
 }
